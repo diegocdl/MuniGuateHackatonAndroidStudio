@@ -104,7 +104,7 @@ public class MainActivity extends ActionBarActivity {
                 
                 /** Creating fragment3 Tab */
                 tab = mActionbar.newTab()
-                               .setText("MuniPremios")                               
+                               .setText("Premios")
                                .setTabListener(tabListener);
 
                 mActionbar.addTab(tab);  

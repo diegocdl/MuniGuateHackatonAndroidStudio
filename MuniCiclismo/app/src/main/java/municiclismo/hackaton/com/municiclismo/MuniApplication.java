@@ -51,7 +51,7 @@ public class MuniApplication extends Application {
         setJSONReader();   
         setDomain(getString(R.string.domain));
         p = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        mUtilities = new Utilities(getApplicationContext(), 5000,gpsHandler);
+//        mUtilities = new Utilities(getApplicationContext(), 5000,gpsHandler);
 		ctx = this;
 		edit = p.edit();
        	
